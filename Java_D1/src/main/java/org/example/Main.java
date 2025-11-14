@@ -29,7 +29,7 @@ public class Main {
         // Example of primitive type
             // Primitive stores value
         int a = 32;
-        System.out.println("this is primitive type: " + a);
+        System.out.println("this is primitive type: ");
 
         // Example of a reference type
             // Reference Stores address
@@ -38,11 +38,23 @@ public class Main {
         point1.x = 5;
         System.out.println("this is reference type: " + point2);
 
+        // Learning String, Escape Sequences
         System.out.println("-------------------");
         System.out.println("--String Demo--");
         StringDemo stringDemo = new StringDemo();
         stringDemo.runStringDemo();
 
+
+        //Learning Arrays
+        System.out.println("-------------------");
+        System.out.println("--Arrays Demo--");
+        ArraysDemo arraysDemo = new ArraysDemo();
+        arraysDemo.arraysDemo();
+
+        // Learning Arithmetics
+        System.out.println("-------------------");
+        ArithmeticExpressions arithmeticExpressions = new ArithmeticExpressions();
+        arithmeticExpressions.arithmeticDemo();
 
     }
 }
