@@ -1,5 +1,7 @@
 package org.example;
 
+import java.awt.*;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -23,7 +25,23 @@ public class Main {
         Friends.displayFriends();
 
         // -----------------------------------------------------------------------------------------------------------
+        System.out.println("-------------------");
+        // Example of primitive type
+            // Primitive stores value
+        int a = 32;
+        System.out.println("this is primitive type: " + a);
 
+        // Example of a reference type
+            // Reference Stores address
+        Point point1 = new Point(1,1);
+        Point point2 = point1;
+        point1.x = 5;
+        System.out.println("this is reference type: " + point2);
+
+        System.out.println("-------------------");
+        System.out.println("--String Demo--");
+        StringDemo stringDemo = new StringDemo();
+        stringDemo.runStringDemo();
 
 
     }
