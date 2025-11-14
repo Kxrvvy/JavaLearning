@@ -13,6 +13,8 @@ public class Main {
         // This is called Instances
         Friends friend1 = new Friends("Spongebob");
         Friends friend2 = new Friends("patrick");
+        Friends friend3 = new Friends("Squidward");
+        Friends friend4 = new Friends("Sandy");
 
         System.out.println(Friends.numberOfFriends);
 
