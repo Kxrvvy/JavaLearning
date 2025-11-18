@@ -25,13 +25,13 @@ public class Main {
         */
 
         //Mortgage Calculator
-        /*
+
         System.out.println("\n---------------------------");
         System.out.println("--MortGage Calc--");
         MortgageCalculator MC = new MortgageCalculator();
         MC.mortgageCalculator();
 
-        */
+
 
         System.out.println("\n---------------------------");
         System.out.println("--Comparison Operator--");
@@ -48,11 +48,15 @@ public class Main {
         ConditionalStatements condiStatements = new ConditionalStatements();
         condiStatements.conditionalStatements();
 
-
-        System.out.println("\n---------------------------");
+        /* System.out.println("\n---------------------------");
         System.out.println("--Conditional Statement--");
         FizzBuzz fizzBuzz = new FizzBuzz();
-        fizzBuzz.fizzBuzz();
+        fizzBuzz.fizzBuzz(); */
+
+        System.out.println("\n---------------------------");
+        System.out.println("--Looping--");
+        LoopingStatements loop = new LoopingStatements();
+        loop.loopStatements();
 
     }
 }
