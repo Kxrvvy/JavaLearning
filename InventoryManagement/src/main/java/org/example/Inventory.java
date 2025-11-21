@@ -30,6 +30,10 @@ public class Inventory {
                 System.out.println("Item updated");
                 return;
             }
+            else {
+                System.out.println("Item not found");
+                return;
+            }
         }
     }
 
